@@ -11,11 +11,11 @@ The **SSL Authority Checker** is a DevSecOps VM Python automation tool that read
 - Reads hosts from a CSV file.
 - Retrieves SSL certificate chains for each host.
 - Extracts certificate chain length, issuer, and serial numbers.
-- Checks if the issuer matches a list of trusted authorities (supports partial matches).
-- Logs detailed output to a timestamped log file.
-- Saves serial numbers and issuer info to `extracted_serials.json`.
-- Sends email alerts for untrusted certificate authorities.
-- Configurable email notifications via `.env` file.
+- Checks if the issuer matches a list of trusted authorities.
+- Logs the output to a timestamped .log file (same dir).
+- Saves serial numbers and issuer info to extracted_serials.json.
+- Sends email alerts for untrusted certificate authorities (SMTP and app password config required).
+- .env file for secure credential usage.
 
 ---
 
@@ -27,13 +27,13 @@ The **SSL Authority Checker** is a DevSecOps VM Python automation tool that read
   - `python-dotenv`
   
 You can install dependencies via pip:
-pip install pyOpenSSL python-dotenv
+`pip install pyOpenSSL python-dotenv`
 
 
 ## Host File
 Create your hosts.csv file one per line, i.e
 www.google.com
-www.apple.com
+www.test.com
 www.example.com
 
 ## ENV File
