@@ -1,2 +1,63 @@
-# SSL_Authority_Checker
-The SSL_Authority_Checker checks a host file, performs GET requests for the served SSL Cert and identifies if it is part of an allowlist, email notifications are sent if not a trusted authority.
+# SSL Authority Checker
+
+## Summary
+
+The **SSL Authority Checker** is a Python script that reads a list of hosts from a CSV file, retrieves their SSL certificate information, and verifies if the certificates are issued by trusted certificate authorities. It logs the results, saves the certificate serial numbers to a JSON file, and can send email notifications if any hosts use untrusted certificate authorities.
+
+---
+
+## Features
+
+- Reads hosts from a CSV file.
+- Retrieves SSL certificate chains for each host.
+- Extracts certificate chain length, issuer, and serial numbers.
+- Checks if the issuer matches a list of trusted authorities (supports partial matches).
+- Logs detailed output to a timestamped log file.
+- Saves serial numbers and issuer info to `extracted_serials.json`.
+- Sends email alerts for untrusted certificate authorities.
+- Configurable email notifications via `.env` file.
+
+---
+
+## Prerequisites
+
+- Python 3.7 or higher
+- Required Python packages:
+  - `pyOpenSSL`
+  - `python-dotenv`
+  
+You can install dependencies via pip:
+
+```bash
+pip install pyOpenSSL python-dotenv
+
+
+## Host File
+Create your hosts.csv file one per line, i.e
+www.google.com
+www.apple.com
+www.example.com
+
+# ENV File
+Your env file should contain SMTP credentials for email notification pager usage, this is using the 
+'app password' feature to enable email sending and receiving through my script.
+
+EMAIL_ENABLED=True
+SMTP_SERVER=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USERNAME=your_email@gmail.com
+SMTP_PASSWORD=your_app_password_here
+EMAIL_FROM=your_email@gmail.com
+EMAIL_TO=recipient_email@example.com
+
+## Usage
+The usage is simple if you have a venv and the pre-reqs installed, simply run:
+- python SSL_Authority_Checker.py
+
+## Logging
+Logs are created from the script processes and results and are stored in SSL_result_YYYYMMDD_HHMMSS.log
+which are timestamped.
+
+## Credit
+Cameron Noakes
+This script is provided as-is, without warranty. Use it responsibly and at your own risk. Not liable for any actions taken.
