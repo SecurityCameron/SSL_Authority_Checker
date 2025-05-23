@@ -36,10 +36,12 @@ www.google.com
 www.apple.com
 www.example.com
 
-# ENV File
+## ENV File
 Your env file should contain SMTP credentials for email notification pager usage, this is using the 
 'app password' feature to enable email sending and receiving through my script.
 
+
+```
 EMAIL_ENABLED=True
 SMTP_SERVER=smtp.gmail.com
 SMTP_PORT=587
@@ -47,6 +49,7 @@ SMTP_USERNAME=your_email@gmail.com
 SMTP_PASSWORD=your_app_password_here
 EMAIL_FROM=your_email@gmail.com
 EMAIL_TO=recipient_email@example.com
+```
 
 ## Usage
 The usage is simple if you have a venv and the pre-reqs installed, simply run:
