@@ -1,0 +1,98 @@
+{
+    "www.google.com": {
+        "issuer": "WR2",
+        "serial_numbers": [
+            217456011474357704688704128730937298287
+        ]
+    },
+    "www.facebook.com": {
+        "issuer": "DigiCert SHA2 High Assurance Server CA",
+        "serial_numbers": [
+            18889128551181900256941609352170843110
+        ]
+    },
+    "www.amazon.com": {
+        "issuer": "DigiCert Global CA G2",
+        "serial_numbers": [
+            6133457089541801845112317029764997733
+        ]
+    },
+    "www.apple.com": {
+        "issuer": "Apple Public EV Server RSA CA 2 - G1",
+        "serial_numbers": [
+            154293039836878182023987740042409027861
+        ]
+    },
+    "www.microsoft.com": {
+        "issuer": "Microsoft Azure RSA TLS Issuing CA 04",
+        "serial_numbers": [
+            1137392274115135541694094568538341433069763443
+        ]
+    },
+    "www.netflix.com": {
+        "issuer": "DigiCert Secure Site ECC CA-1",
+        "serial_numbers": [
+            11735591905652424606686156015023083903
+        ]
+    },
+    "www.youtube.com": {
+        "issuer": "WR2",
+        "serial_numbers": [
+            33499888410300705391682813552886650448
+        ]
+    },
+    "www.reddit.com": {
+        "issuer": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+        "serial_numbers": [
+            5873982709369891187898740853775167550
+        ]
+    },
+    "www.linkedin.com": {
+        "issuer": "DigiCert SHA2 Secure Server CA",
+        "serial_numbers": [
+            20140443459230910609740340300670287236
+        ]
+    },
+    "www.twitter.com": {
+        "issuer": "E6",
+        "serial_numbers": [
+            478648122346684980819556191050253683388644
+        ]
+    },
+    "www.instagram.com": {
+        "issuer": "DigiCert SHA2 High Assurance Server CA",
+        "serial_numbers": [
+            5733575575880864215922338932536885817
+        ]
+    },
+    "www.wikipedia.org": {
+        "issuer": "DigiCert TLS Hybrid ECC SHA384 2020 CA1",
+        "serial_numbers": [
+            16554944724139648132307752287197783866
+        ]
+    },
+    "www.cloudflare.com": {
+        "issuer": "WE1",
+        "serial_numbers": [
+            244390826782171390344623795576798270471
+        ]
+    },
+    "www.stackoverflow.com": {
+        "issuer": "E6",
+        "serial_numbers": [
+            551541704682825816659564107231475701092446
+        ]
+    },
+    "www.nytimes.com": {
+        "issuer": "Thawte TLS RSA CA G1",
+        "serial_numbers": [
+            2120025917906770084188461174194084120
+        ]
+    },
+    "www.badssl.com": {
+        "issuer": "R10",
+        "serial_numbers": [
+            552896826408669891488929714943790427812587
+        ]
+    }
+}

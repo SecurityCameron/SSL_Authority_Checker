@@ -1,0 +1,68 @@
+2025-05-23 21:15:29,478 - Script started
+2025-05-23 21:15:29,599 - Certificate retrieved from host: www.google.com
+2025-05-23 21:15:29,602 - Issuer for www.google.com: WR2
+2025-05-23 21:15:29,602 - Serial numbers for www.google.com: [217456011474357704688704128730937298287]
+2025-05-23 21:15:29,602 - Trusted Authority: WR2
+2025-05-23 21:15:29,682 - Certificate retrieved from host: www.facebook.com
+2025-05-23 21:15:29,683 - Issuer for www.facebook.com: DigiCert SHA2 High Assurance Server CA
+2025-05-23 21:15:29,684 - Serial numbers for www.facebook.com: [18889128551181900256941609352170843110]
+2025-05-23 21:15:29,684 - Trusted Authority: DigiCert SHA2 High Assurance Server CA
+2025-05-23 21:15:29,762 - Certificate retrieved from host: www.amazon.com
+2025-05-23 21:15:29,763 - Issuer for www.amazon.com: DigiCert Global CA G2
+2025-05-23 21:15:29,764 - Serial numbers for www.amazon.com: [6133457089541801845112317029764997733]
+2025-05-23 21:15:29,764 - Trusted Authority: DigiCert Global CA G2
+2025-05-23 21:15:29,846 - Certificate retrieved from host: www.apple.com
+2025-05-23 21:15:29,848 - Issuer for www.apple.com: Apple Public EV Server RSA CA 2 - G1
+2025-05-23 21:15:29,848 - Serial numbers for www.apple.com: [154293039836878182023987740042409027861]
+2025-05-23 21:15:29,848 - Trusted Authority: Apple Public EV Server RSA CA 2 - G1
+2025-05-23 21:15:29,922 - Certificate retrieved from host: www.microsoft.com
+2025-05-23 21:15:29,923 - Issuer for www.microsoft.com: Microsoft Azure RSA TLS Issuing CA 04
+2025-05-23 21:15:29,923 - Serial numbers for www.microsoft.com: [1137392274115135541694094568538341433069763443]
+2025-05-23 21:15:29,923 - Trusted Authority: Microsoft Azure RSA TLS Issuing CA 04
+2025-05-23 21:15:30,027 - Certificate retrieved from host: www.netflix.com
+2025-05-23 21:15:30,028 - Issuer for www.netflix.com: DigiCert Secure Site ECC CA-1
+2025-05-23 21:15:30,028 - Serial numbers for www.netflix.com: [11735591905652424606686156015023083903]
+2025-05-23 21:15:30,029 - Trusted Authority: DigiCert Secure Site ECC CA-1
+2025-05-23 21:15:30,122 - Certificate retrieved from host: www.youtube.com
+2025-05-23 21:15:30,123 - Issuer for www.youtube.com: WR2
+2025-05-23 21:15:30,123 - Serial numbers for www.youtube.com: [33499888410300705391682813552886650448]
+2025-05-23 21:15:30,123 - Trusted Authority: WR2
+2025-05-23 21:15:30,205 - Certificate retrieved from host: www.reddit.com
+2025-05-23 21:15:30,206 - Issuer for www.reddit.com: DigiCert Global G2 TLS RSA SHA256 2020 CA1
+2025-05-23 21:15:30,206 - Serial numbers for www.reddit.com: [5873982709369891187898740853775167550]
+2025-05-23 21:15:30,206 - Trusted Authority: DigiCert Global G2 TLS RSA SHA256 2020 CA1
+2025-05-23 21:15:30,285 - Certificate retrieved from host: www.linkedin.com
+2025-05-23 21:15:30,287 - Issuer for www.linkedin.com: DigiCert SHA2 Secure Server CA
+2025-05-23 21:15:30,287 - Serial numbers for www.linkedin.com: [20140443459230910609740340300670287236]
+2025-05-23 21:15:30,287 - Trusted Authority: DigiCert SHA2 Secure Server CA
+2025-05-23 21:15:30,360 - Certificate retrieved from host: www.twitter.com
+2025-05-23 21:15:30,361 - Issuer for www.twitter.com: E6
+2025-05-23 21:15:30,362 - Serial numbers for www.twitter.com: [478648122346684980819556191050253683388644]
+2025-05-23 21:15:30,362 - Trusted Authority: E6
+2025-05-23 21:15:30,450 - Certificate retrieved from host: www.instagram.com
+2025-05-23 21:15:30,452 - Issuer for www.instagram.com: DigiCert SHA2 High Assurance Server CA
+2025-05-23 21:15:30,452 - Serial numbers for www.instagram.com: [5733575575880864215922338932536885817]
+2025-05-23 21:15:30,452 - Trusted Authority: DigiCert SHA2 High Assurance Server CA
+2025-05-23 21:15:30,539 - Certificate retrieved from host: www.wikipedia.org
+2025-05-23 21:15:30,540 - Issuer for www.wikipedia.org: DigiCert TLS Hybrid ECC SHA384 2020 CA1
+2025-05-23 21:15:30,540 - Serial numbers for www.wikipedia.org: [16554944724139648132307752287197783866]
+2025-05-23 21:15:30,540 - Trusted Authority: DigiCert TLS Hybrid ECC SHA384 2020 CA1
+2025-05-23 21:15:30,606 - Certificate retrieved from host: www.cloudflare.com
+2025-05-23 21:15:30,607 - Issuer for www.cloudflare.com: WE1
+2025-05-23 21:15:30,607 - Serial numbers for www.cloudflare.com: [244390826782171390344623795576798270471]
+2025-05-23 21:15:30,608 - Trusted Authority: WE1
+2025-05-23 21:15:30,671 - Certificate retrieved from host: www.stackoverflow.com
+2025-05-23 21:15:30,673 - Issuer for www.stackoverflow.com: E6
+2025-05-23 21:15:30,673 - Serial numbers for www.stackoverflow.com: [551541704682825816659564107231475701092446]
+2025-05-23 21:15:30,673 - Trusted Authority: E6
+2025-05-23 21:15:30,752 - Certificate retrieved from host: www.nytimes.com
+2025-05-23 21:15:30,753 - Issuer for www.nytimes.com: Thawte TLS RSA CA G1
+2025-05-23 21:15:30,753 - Serial numbers for www.nytimes.com: [2120025917906770084188461174194084120]
+2025-05-23 21:15:30,753 - Trusted Authority: Thawte TLS RSA CA G1
+2025-05-23 21:15:31,152 - Certificate retrieved from host: www.badssl.com
+2025-05-23 21:15:31,153 - Issuer for www.badssl.com: R10
+2025-05-23 21:15:31,154 - Serial numbers for www.badssl.com: [552896826408669891488929714943790427812587]
+2025-05-23 21:15:31,154 - Untrusted Authority: R10
+2025-05-23 21:15:31,155 - Serial numbers saved to extracted_serials.json
+2025-05-23 21:15:33,006 - Email notification sent.
+2025-05-23 21:15:33,006 - Script completed
