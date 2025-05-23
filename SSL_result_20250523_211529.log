@@ -11,10 +11,6 @@
 2025-05-23 21:15:29,763 - Issuer for www.amazon.com: DigiCert Global CA G2
 2025-05-23 21:15:29,764 - Serial numbers for www.amazon.com: [6133457089541801845112317029764997733]
 2025-05-23 21:15:29,764 - Trusted Authority: DigiCert Global CA G2
-2025-05-23 21:15:29,846 - Certificate retrieved from host: www.apple.com
-2025-05-23 21:15:29,848 - Issuer for www.apple.com: Apple Public EV Server RSA CA 2 - G1
-2025-05-23 21:15:29,848 - Serial numbers for www.apple.com: [154293039836878182023987740042409027861]
-2025-05-23 21:15:29,848 - Trusted Authority: Apple Public EV Server RSA CA 2 - G1
 2025-05-23 21:15:29,922 - Certificate retrieved from host: www.microsoft.com
 2025-05-23 21:15:29,923 - Issuer for www.microsoft.com: Microsoft Azure RSA TLS Issuing CA 04
 2025-05-23 21:15:29,923 - Serial numbers for www.microsoft.com: [1137392274115135541694094568538341433069763443]
