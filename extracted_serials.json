@@ -16,13 +16,7 @@
         "serial_numbers": [
             6133457089541801845112317029764997733
         ]
-    },
-    "www.apple.com": {
-        "issuer": "Apple Public EV Server RSA CA 2 - G1",
-        "serial_numbers": [
-            154293039836878182023987740042409027861
-        ]
-    },
+
     "www.microsoft.com": {
         "issuer": "Microsoft Azure RSA TLS Issuing CA 04",
         "serial_numbers": [
