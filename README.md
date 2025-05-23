@@ -2,7 +2,7 @@
 
 ## Summary
 
-The **SSL Authority Checker** is a Python script that reads a list of hosts from a CSV file, retrieves their SSL certificate information, and verifies if the certificates are issued by trusted certificate authorities. It logs the results, saves the certificate serial numbers to a JSON file, and can send email notifications if any hosts use untrusted certificate authorities.
+The **SSL Authority Checker** is a DevSecOps VM Python automation tool that reads a list of hosts from a CSV file, retrieves their SSL certificate information (trusted authority and serial numbers), and verifies if the certificates are issued by the trusted certificate authorities listed for the organization. It logs the results, saves the certificate serial numbers to a JSON file, and can send email notifications if any hosts use untrusted certificate authorities.
 
 ---
 
@@ -27,8 +27,6 @@ The **SSL Authority Checker** is a Python script that reads a list of hosts from
   - `python-dotenv`
   
 You can install dependencies via pip:
-
-```bash
 pip install pyOpenSSL python-dotenv
 
 
