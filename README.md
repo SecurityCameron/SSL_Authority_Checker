@@ -55,6 +55,8 @@ EMAIL_TO=recipient_email@example.com
 The usage is simple if you have a venv and the pre-reqs installed, simply run:
 - python SSL_Authority_Checker.py
 
+hosts.csv includes an edge case of badssl.com which does not have a trusted authority within the allow list, see email_alert.png for the alert POC.
+
 ## Logging
 Logs are created from the script processes and results and are stored in SSL_result_YYYYMMDD_HHMMSS.log
 which are timestamped.
